@@ -58,73 +58,20 @@ export default function About() {
               {" "}
               {/* Glow */}
               <div className="absolute left-1/2 top-1/2 h-56 w-56 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#3B82F6]/10 blur-[80px]" />
-              {/* Code window */}
-              <div className="absolute inset-5 flex flex-col rounded-2xl border border-white/5 bg-[#060B1A] p-4 shadow-2xl sm:inset-8 sm:p-6">
-                {/* Window controls */}
-                <div className="mb-2 flex gap-2 sm:mb-4">
-                  <span className="h-2.5 w-2.5 rounded-full bg-[#3B82F6]" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-[#60A5FA]/50" />
-                  <span className="h-2.5 w-2.5 rounded-full bg-white/20" />
-                </div>
-
-                {/* Code */}
-                <div className="flex flex-1 flex-col justify-between font-mono text-[10px] leading-5 sm:text-sm sm:leading-6">
-                  {" "}
-                  <p className="text-[#475569]">// about-me.tsx</p>
-                  <p>
-                    <span className="text-[#60A5FA]">const</span>{" "}
-                    <span className="text-[#F8FAFC]">developer</span> = {"{"}
-                  </p>
-                  <p className="pl-4 sm:pl-5">
-                    <span className="text-[#3B82F6]">name:</span>{" "}
-                    <span className="text-[#94A3B8]">"Miracle"</span>,
-                  </p>
-                  <p className="pl-4 sm:pl-5">
-                    <span className="text-[#3B82F6]">role:</span>{" "}
-                    <span className="text-[#94A3B8]">"Frontend Developer"</span>
-                    ,
-                  </p>
-                  <p className="pl-4 sm:pl-5">
-                    <span className="text-[#3B82F6]">stack:</span>{" "}
-                    <span className="text-[#94A3B8]">
-                      ["React", "TypeScript"]
-                    </span>
-                    ,
-                  </p>
-                  <p className="pl-4 sm:pl-5">
-                    <span className="text-[#3B82F6]">passion:</span>{" "}
-                    <span className="text-[#94A3B8]">
-                      "Creating digital experiences"
-                    </span>
-                    ,
-                  </p>
-                  <p className="pl-4 sm:pl-5">
-                    <span className="text-[#3B82F6]">skills:</span>{" "}
-                    <span className="text-[#94A3B8]">
-                      "HTML, CSS, JS, React, TS, Git"
-                    </span>
-                  </p>
-                  <p>{"}"}</p>
+              {/* Personal portrait */}
+              <div className="absolute inset-5 overflow-hidden rounded-2xl border border-white/5 bg-[#060B1A] shadow-2xl sm:inset-8">
+                <img
+                  src={`${import.meta.env.BASE_URL}about-workspace.jpg`}
+                  alt="Miracle working at her laptop"
+                  className="h-full w-full object-cover object-top"
+                  loading="lazy"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#060B1A]/95 via-[#060B1A]/55 to-transparent px-5 pb-5 pt-20 sm:px-6 sm:pb-6">
+                  <p className="text-lg font-semibold text-[#F8FAFC]">Miracle Nwachukwu</p>
+                  <p className="mt-1 text-sm text-[#93C5FD]">Frontend Developer</p>
                 </div>
               </div>
-              {/* Floating badge */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-                className="absolute right-3 top-3 rounded-2xl border border-[#3B82F6]/20 bg-[#060B1A]/95 px-3 py-2.5 shadow-xl backdrop-blur sm:right-5 sm:top-5 sm:px-5 sm:py-4"
-              >
-                <p className="text-lg font-bold text-[#3B82F6] sm:text-2xl">
-                  01+
-                </p>
-                <p className="text-[10px] text-[#64748B] sm:text-xs">
-                  {" "}
-                  Internship Experience
-                </p>{" "}
-              </motion.div>
+
             </div>
           </motion.div>
 
@@ -136,17 +83,11 @@ export default function About() {
             transition={{ duration: 0.7 }}
           >
             <p className="text-base leading-8 text-[#94A3B8] sm:text-lg">
-              I'm a detail-oriented frontend developer passionate about creating
-              responsive and user-friendly web experiences. I enjoy transforming
-              ideas and designs into functional interfaces using modern web
-              technologies.
+              My path into tech has been shaped by curiosity and a love for learning. After earning my Bachelor's degree in English Language Education, I began learning frontend development through the AltSchool Africa programme. That experience introduced me to the craft of building for the web and gave me the confidence to keep learning by making real projects.
             </p>
 
             <p className="mt-5 text-base leading-8 text-[#64748B] sm:text-lg">
-              I have learned and developed practical skills in HTML, CSS,
-              JavaScript, React, TypeScript, and Git. I apply these skills by
-              building projects, solving problems, and creating responsive,
-              user-friendly web experiences.
+              Since then, I've been building with HTML, CSS, JavaScript, React, TypeScript, and Git. I especially enjoy the process of taking an idea, working through the details, and turning it into an interface that feels clear and easy to use. I'm always looking for ways to improve, try something new, and become a better developer.
             </p>
 
             {/* Highlights */}

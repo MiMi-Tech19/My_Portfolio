@@ -66,7 +66,7 @@ function Contact() {
 
               <p className="text-sm text-[#64748B]">Email</p>
 
-              <p className="mt-1 break-all font-medium text-[#F8FAFC] transition group-hover:text-[#60A5FA]">
+              <p className="mt-1 whitespace-nowrap text-[clamp(0.55rem,1.5vw,0.9rem)] font-medium tracking-tight text-[#F8FAFC] transition group-hover:text-[#60A5FA]">
                 miraclenwachukwu112@gmail.com
               </p>
             </a>

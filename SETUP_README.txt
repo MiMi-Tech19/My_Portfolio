@@ -1,0 +1,1 @@
+This archive has exactly one project folder: miracle-portfolio. Copy the CONTENTS of this folder into C:\Users\LENOVO\projects\miracle-portfolio (not another miracle-portfolio subfolder). Keep your existing .git and node_modules. Run npm run build then npm run dev. Do not deploy until you verify changes locally.
