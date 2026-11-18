@@ -1,75 +1,85 @@
-# React + TypeScript + Vite
+# Miracle Nwachukwu | Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my developer portfolio! I'm Miracle Nwachukwu, a Frontend Developer passionate about building responsive, accessible, and user-friendly web experiences.
 
-Currently, two official plugins are available:
+This portfolio showcases my journey into frontend development, the technologies I work with, and projects I've built while continuously improving my skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Portfolio
 
-## React Compiler
+**Visit:** https://mimi-tech19.github.io/My_Portfolio/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About Me
 
-## Expanding the ESLint configuration
+I hold a Bachelor of Arts Education (BA.Ed) in English Language Education from the University of Port Harcourt. I also studied frontend development through the AltSchool Africa programme, where I developed practical skills in building modern web applications.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I enjoy turning ideas into functional interfaces, solving problems, and learning through hands-on projects.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- HTML5
+- CSS3
+- JavaScript
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Git and GitHub
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Featured Projects
 
-```
+### 1. E-commerce Admin Dashboard
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+An ongoing full-stack web application designed to help manage an online store and its operations.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Highlights:**
+- Admin and staff management
+- Product and order management
+- Authentication and session management
+- Active device monitoring
+- Login and logout history
+- Visitor analytics
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Technologies:** React, TypeScript, Node.js, Express, Prisma, PostgreSQL, Neon.
 
-```
+[View Repository](https://github.com/MiMi-Tech19/ecommerce-admin-dashboard)
+
+[View Live Project](https://ecommerce-admin-dashboard-sigma-pearl.vercel.app/)
+
+### 2. Huddle
+
+A team messaging web application built around channels, direct messages, and everyday team conversations.
+
+This was a collaborative project that gave me experience working with other developers and contributing to a shared codebase.
+
+**Technologies:** React, TypeScript, JavaScript, CSS, Node.js.
+
+[View Repository](https://github.com/uluchukwu/huddle)
+
+[View Live Project](https://huddle-group1-frontend.onrender.com/channels)
+
+## Portfolio Features
+
+- Responsive design
+- About Me section
+- Education and skills
+- Featured project showcases
+- Dedicated project case studies
+- Contact section
+- Downloadable CV
+
+## Run Locally
+
+See [SETUP_README.txt](./SETUP_README.txt) for installation and setup instructions.
+
+## Connect With Me
+
+- **Email:** miraclenwachukwu112@gmail.com
+- **GitHub:** https://github.com/MiMi-Tech19
+- **LinkedIn:** https://www.linkedin.com/in/miracle-nwachukwu-99653b2b6
+I'm open to frontend development opportunities, collaborations, and opportunities to grow as a developer.
+
+---
+
+Built with React, TypeScript, Tailwind CSS, and Framer Motion.
+
+© Miracle Nwachukwu
